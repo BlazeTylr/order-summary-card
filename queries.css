@@ -1,0 +1,45 @@
+@media (max-width: 34em) {
+  .order-summary {
+    width: 90%;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .summary {
+    font-size: 1.4rem;
+    padding: 2rem 0 0;
+  }
+
+  .main-text {
+    font-size: 1rem;
+    padding: 1.4rem 2rem;
+  }
+
+  .pricing {
+    padding: 1rem 1rem;
+    margin: 0 2rem;
+  }
+
+  .plan-price {
+    font-size: 1rem;
+  }
+
+  .price {
+    font-size: 1rem;
+  }
+
+  .change,
+  .change:link,
+  .chnage:visited {
+    margin-left: 1rem;
+  }
+
+  .btn,
+  .btn:link,
+  .btn:visited {
+    padding: 1rem 4.6rem;
+    margin: 2rem 0rem;
+  }
+}

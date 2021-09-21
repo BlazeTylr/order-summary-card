@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*Primary Colors*/
+  --Pale-blue: hsl(225, 100%, 94%);
+  --Bright-blue: hsl(245, 75%, 52%);
+
+  /*Neutral Colors*/
+  --Very-pale-blue: hsl(225, 100%, 98%);
+  --Desaturated-blue: hsl(224, 23%, 55%);
+  --Dark-blue: hsl(223, 47%, 23%);
+}
+
+body {
+  background-image: url("/images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--Pale-blue);
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1;
+}
+
+.img {
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 0;
+  padding-top: 0;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.order-summary {
+  background-color: #fff;
+  max-width: 28rem;
+  display: grid;
+  margin: 6rem auto;
+  box-shadow: 0 2.4px 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 13px;
+  overflow: hidden;
+  color: #3d3d3d;
+}
+
+.summary {
+  font-size: 1.6rem;
+  font-weight: 900;
+  padding: 2.6rem 0 1.6rem;
+}
+
+.main-text {
+  font-weight: 500;
+  color: #7c93a3;
+  line-height: 1.6rem;
+  padding: 0 3.6rem 1.2rem;
+}
+
+.pricing {
+  padding: 1.4rem 1.2rem;
+  margin: 0rem 2.6rem;
+  box-shadow: 0 2.4px 4.8rem rgba(0, 0, 0, 0.1.6);
+  border-radius: 13px;
+  background-color: var(--Very-pale-blue);
+}
+
+.plan-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  list-style-type: none;
+  align-items: center;
+}
+
+.change,
+.change:link,
+.chnage:visited {
+  margin-left: 6rem;
+  font-weight: bold;
+  font-size: 0.8rem;
+  transition: all 0.2s;
+  color: #3d3d3d;
+}
+
+.change:hover,
+.chnage:active {
+  color: rgb(132, 95, 218);
+  text-decoration: none;
+}
+
+.price {
+  color: #7c93a3;
+  font-size: 1rem;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  line-height: 24px;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  box-shadow: 0 2.4px 4.8rem rgba(0, 0, 0, 0.2);
+  border-radius: 11px;
+  padding: 1rem 7.4rem;
+  margin: 2rem 2.6rem;
+  border: none;
+  background-color: var(--Bright-blue);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: rgb(132, 95, 218);
+}
+
+.cancel,
+.cancel:link,
+.cancel:visited {
+  margin-bottom: 3rem;
+  font-weight: 900;
+  color: #686868;
+  font-size: 1rem;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.cancel:hover,
+.cancel:active {
+  color: rgb(132, 95, 218);
+}
